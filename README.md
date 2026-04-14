@@ -1,12 +1,19 @@
-# Google Data Center Technician - Linux Storage & Diagnostics
+# 🛠️ Data Center Operations Toolkit (Linux)
 
-This repository contains tools and documentation developed to simulate hardware maintenance tasks within a hyperscale data center environment.
+This repository contains a suite of automation scripts designed for **Hyperscale Data Center Maintenance**. These tools focus on the "Big Three" of server reliability: Health Monitoring, Storage Remediation, and Network Diagnostics.
 
-## Included Projects:
-1. **System Health Check (`hcheck.sh`)**: A Bash script for rapid diagnostic reporting of CPU load, RAM utilization, and kernel hardware errors via `dmesg`.
-2. **Virtual Storage Repair**: A documented workflow for simulating disk failures, handling read-only file system errors, and performing repairs using `fsck`.
+## 📁 Repository Contents
 
-## Key Skills Demonstrated:
-* **Automation**: Bash scripting for system monitoring.
-* **Storage Management**: Formatting (ext4), Mounting, and Loop Devices.
-* **Troubleshooting**: Identifying and fixing permission/ownership issues and file system corruption.
+| Script | Function | Key Linux Concepts |
+| :--- | :--- | :--- |
+| `hcheck.sh` | **System Health** | CPU Load, RAM usage, Kernel error logs (`dmesg`) |
+| `disk_repair.sh` | **Storage Repair** | Handling Read-Only (RO) filesystems, remounting logic |
+| `net_audit.sh` | **Network Audit** | OSI Layer troubleshooting (L1-L7), DNS, Routing |
+
+## 🚀 Technical Skills Demonstrated
+* **Automation:** Advanced Bash scripting for rapid incident response.
+* **Storage:** Managing loop devices and filesystem consistency.
+* **Networking:** Diagnosing connectivity issues across the stack.
+
+---
+*Created as part of technical preparation for Data Center Operations roles (Skien, 2026).*
